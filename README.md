@@ -26,7 +26,7 @@ server?
 
 SELECT ONLY ONE:
 
-- [X] 1. GET
+- [ X ] 1. GET
 - [ ] 2. UPDATE 
 - [ ] 3. DELETE
 - [ ] 4. POST
@@ -42,7 +42,7 @@ Which of the following API paths should you use?
 SELECT ONLY ONE:
 
 - [ ] 1. /customers/{customer_id}  
-- [X] 2. /contacts/{contact_id}  
+- [ X ] 2. /contacts/{contact_id}  
 - [ ] 3. /contacts/{contact_type}/all
 - [ ] 4. /customers/all 
 
@@ -60,7 +60,7 @@ SELECT ONLY ONE:
 - [ ] 1. 404 if the user doesn't exist, and 403 if the password is wrong.  
 - [ ] 2. 403 if the user doesn't exist, and 401 if the password is wrong.  
 - [ ] 3. 500 if the user doesn't exist or if the password is wrong.
-- [X] 4. 401 if the user doesn't exist or if the password is wrong. 
+- [ X ] 4. 401 if the user doesn't exist or if the password is wrong. 
 
 ---
 
@@ -73,7 +73,7 @@ text "UUID") as a placeholder.
 
 SELECT ONLY ONE:
 
-- [X] 1. TRUE  
+- [ X ] 1. TRUE  
 - [ ] 2. FALSE 
 
 ---
@@ -87,7 +87,7 @@ How much work should your method, handleErrors(response), handle?
 SELECT ONLY ONE:
 
 - [ ] 1. Check for the presence of an error. If it exists, then set a class property to the error.  
-- [X] 2. Check for the presence of an error. If it exists, throw an exception with the error.  
+- [ X ] 2. Check for the presence of an error. If it exists, throw an exception with the error.  
 - [ ] 3. Check for the presence of an error. If it exists, set a class property to the error, then throw an exception.
 
 ---
@@ -102,7 +102,7 @@ SELECT ONLY ONE:
 
 - [ ] 1. loopThroughProductsAndParseData()  
 - [ ] 2. loopProductsAndParse()  
-- [X] 3. parseDataForProducts()
+- [ X ] 3. parseDataForProducts()
 - [ ] 4. parseDataForProductsAndSetArray()
 
 ---
@@ -118,4 +118,4 @@ SELECT ONLY ONE:
 - [ ] 1. Put them in the code that connects to the database for each place that needs database access.  
 - [ ] 2. Put them in a configuration file, then include that file in the code everywhere that needs to access the   database.  
 - [ ] 3. Put the credentials into a configuration file, then load them with a database service provider.
-- [X] 4. Put them in a .env file, load data from it into a configuration system, then request the credentials from a database service provider.
+- [ X ] 4. Put them in a .env file, load data from it into a configuration system, then request the credentials from a database service provider.
